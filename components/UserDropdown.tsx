@@ -21,8 +21,8 @@ const UserDropdown = () => {
   };
 
   const user = {
-    name: "John Doe",
-    email: "john.doe@example.com",
+    name: "John Stocknow",
+    email: "user@stocknow.com",
     image: "",
   };
 

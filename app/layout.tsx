@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StockNow ",
+  title: "StockNow-Real-time Stock Market Tracker",
   description: "Real-time Stock Market price Tracker, News and Analysis with detailed insights.",
 };
 
