@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:db": "node scripts/test-db.mjs"
+    "test:db": "node scripts/test-db.mjs",
+    "postinstall": "node -e \"try{require('child_process').execSync('npm rebuild lightningcss --update-binary',{stdio:'inherit'})}catch(e){console.error('lightningcss rebuild failed, continuing...') }\""
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
@@ -55,3 +56,4 @@
     "node": "20.x"
   }
 }
+
